@@ -1,0 +1,1 @@
+Click <a href="{{ route('admin.password.reset', $token) }}">here</a> for Reset Admin Password.

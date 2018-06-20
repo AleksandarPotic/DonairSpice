@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#thank-section{
+	padding-top: 120px;
+	padding-bottom: 45px;
+}
+
+#thank-section23{
+	padding-top: 120px;
+	padding-bottom: 45px;
+}
+
+#thank-title h1{
+	color: #d3a713;
+	font-family: donair;
+	font-size: 1.8rem;
+	margin-left: -30px;
+}
+
+#check{
+	color: #d3a713;
+}
+
+#thank-section{
+	margin-top: 40px;
+}
+
+#thank-title {
+	padding-top: 50px;
+}
+
+
+@media (min-width: 320px){
+	#thank-section23{
+		display: flex;
+	}
+	#thank-section{
+		display: none;
+	}
+
+	#thank-section2{
+		padding-top: 100px;
+	}
+
+	#thank-section23 h1{
+		color: #d3a713;
+		font-family: donair;
+		font-size: 2.7rem;
+		margin-left: -30px;
+	}
+
+	#thank-section23 h4{
+		font-family: myriad;
+		font-size: 1rem;
+		margin-top: 20px;
+		margin-left: 5px;
+	}
+
+}
+
+@media (min-width: 554px){
+
+}
+
+@media (min-width: 768px){
+
+	#thank-section23{
+		display: none;
+	}
+	#thank-section{
+		display: flex;
+	}
+	#thank-title{
+		margin-bottom: 20px;
+	}
+
+	#thank-title h1{
+		font-size: 3.8rem;
+	}
+
+	#thank-title h4 {
+    text-indent: 15px;
+    line-height: 30px;
+	}
+
+	#thank-title h4 {
+	    margin-top: 30px;
+	    text-align: left;
+	    font-size: 1.08rem;
+	    font-family: myriad;
+	}
+
+	#thank-section{
+		padding-top: 110px;
+		padding-bottom: 63px;
+		display: flex;
+	}
+
+}
+
+@media (min-width: 992px){
+#thank-title h4{
+		margin-top: 30px;
+		text-align: left;
+		font-size: 1.50rem;
+		font-family: myriad;
+	}
+}
+
+@media (min-width: 1200px){
+
+	#thank-section{
+		padding-top: 220px;
+		padding-bottom: 72px;
+		display: flex;
+	}
+	
+	#thank-title h1{
+		font-size: 5rem;
+	}
+
+}
+
+	#thank-title h4{
+		text-indent: 30px;
+		line-height: 30px;
+	}

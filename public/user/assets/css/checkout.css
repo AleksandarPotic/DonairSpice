@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#checkout-title h1{
+	text-align: center;
+	font-family: donair;
+	color: #d3a713;
+}
+
+.delivery-info{
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+.delivery-info h3{
+	margin-bottom: 15px;
+	font-size: 1.4rem;
+	text-align: left;
+}
+
+.delivery-info p{
+	color: #000;
+	margin-bottom: 10px;
+	font-size: 1rem;
+	text-align: left;
+}
+
+#font{
+	font-family: donair;
+	font-size: 1.2rem;
+}
+
+#ordered-item{
+	padding-left: 0px;
+}
+
+#checkout-right{
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+#place-order{
+	border: 1px solid #c7c7c7;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+#place-order button{
+	width: 80%;
+	margin-left: 10%;
+	background-color: #d3a713;
+	color: #000;
+}
+
+#place-order button:hover{
+	background-color: #000;
+	color: #d3a713;
+}
+
+#first-ul{
+	margin-top: 30px;
+	border-bottom: 1px solid #c7c7c7;
+	padding-bottom: 15px;
+}
+
+#place-order ul li{
+	width: 45%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.right-price{
+	text-align: right;
+}
+
+#second-ul{
+	border-bottom: 1px solid #fff;
+}
+
+#second-ul li{
+	font-size: 1.5rem;
+	width: 47%;
+}
+
+
+#card_number_valid::-webkit-inner-spin-button {
+	display: none;
+}
+#cvv::-webkit-inner-spin-button {
+	display: none;
+}
+
+.payment-color {
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 300px){
+		#checkout-title h1 {
+			font-size: 2.4 rem;
+	}
+
+		#checkout-title{
+	margin-top: 140px;
+	padding-bottom: 30px;
+	}
+
+}
+
+@media (min-width: 544px){
+		#checkout-title h1 {
+			font-size: 2.9rem;
+	}
+
+}
+
+@media (min-width: 768px){
+	
+	#place-order ul li{
+		width: 47%;
+	}
+
+	.delivery-info h3{
+	margin-bottom: 15px;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.delivery-info p{
+	color: #000;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+}
+
+@media (min-width: 992px){
+	#checkout-title h1 {
+		font-size: 3.8rem;
+	}
+	#checkout-title{
+	margin-top: 170px;
+	padding-bottom: 50px;
+	}
+}
+
+@media (min-width: 1200px){
+
+
+
+}

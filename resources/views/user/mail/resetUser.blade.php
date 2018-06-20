@@ -1,0 +1,1 @@
+Click <a href="{{ route('password.reset', $token) }}">here</a> for Reset User Password.

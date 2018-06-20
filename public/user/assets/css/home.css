@@ -1,0 +1,575 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.slides-navigation a{
+	color: #d3a713;
+}
+
+.slides-navigation a:hover{
+	color: #d3a713;
+}
+
+.right-a{
+	margin-right: 15px;
+}
+
+.left-a{
+	margin-left: 15px;
+}
+
+#important{
+	color:#495057 !important;
+}
+
+#about-section{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+}
+
+#about-title h1{
+	font-family: donair;
+	color: #d3a713;
+	text-align: center;
+	margin-bottom: 35px;
+	font-size: 2.7rem;
+}
+
+.about-p{
+	color: #fff;
+	font-size: 1rem;
+	font-family: myriad;
+}
+
+#review-section{
+	width: 100%;
+	padding-bottom: 40px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+	
+}
+
+#wraper{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(000, 000, 000, .6);
+}
+
+#review-content{
+	padding-top: 50px;
+}
+
+#review-content a{
+	text-decoration: none;
+}
+
+.review-p{
+	font-family: myriad;
+	font-size: 1rem;
+}
+
+#review-content h1{
+	font-family: donair;
+	color: #d3a713;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+#review-content h3{
+	color: #fff;
+}
+
+.carousel-control-next{
+	visibility: hidden;
+}
+
+.carousel-control-prev{
+	visibility: hidden;
+}
+
+#product-title{
+	padding-top: 25px;
+	padding-bottom: 10px;
+	background-color: #d3a713;
+	color: #fff;
+	display: inline-block;
+}
+
+#product-title h1{
+	font-family: donair;
+	font-size: 1.74rem;
+}
+
+#product-section{
+	padding-top: 10px;
+	display: flex;
+	width: 100%;
+	height: 87vh;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.product{
+	padding: 15px;
+}
+
+.product h2{
+	font-family: donair;
+}
+
+.product ul li{
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 10px;
+	font-size: 1.2rem;
+}
+
+.product ul li a{
+	display: block;
+	padding: 10px;
+	width: 70%;
+	margin-left: 15%;	
+	background-color: #d3a713;
+	color: #000;
+	font-size: 1rem;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#special-label{
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+
+#slide{
+	margin-top: 30px;
+}
+
+.qoute{
+	font-size: 2rem;
+}
+
+#slide h3{
+	color: #fff;
+}
+
+#profile-grid { overflow: auto; white-space: normal; } 
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+.line{
+	border-top: 10px solid #d3a713;
+}
+
+#contact-section{
+	background-color: #f3f3f3;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#left-contact{
+	background-color: #fff;
+	border: 1px solid #c5c5c5;
+	padding: 30px;
+}
+
+#left-contact h1{
+	text-align: center;
+	font-family: donair;
+	color: #d3a713;
+}
+
+#left-contact h4{
+	text-align: center;
+}
+
+#right-contact{
+	padding: 30px;
+}
+
+#right-contact h1{
+	font-family: donair;
+	color: #d3a713;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 2.2rem;
+}
+
+#righ-contact p{
+	font-family: myriad;
+}
+
+.boxes {
+	margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.containerr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containerr:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerr input:checked ~ .checkmark {
+    background-color: #d3a713;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.containerr input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerr .checkmark:after {
+    left: 9px;
+    top: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.inputs{
+	height: 50px;
+	margin-top: 20px;
+}
+
+#right-contact textarea{
+	margin-top: 20px;
+}
+
+#right-contact button{
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	background-color: #d3a713;
+	color: #000;
+	font-weight: bold;
+}
+
+#right-contact button:hover{
+	background-color: #000;
+	color: #d3a713;
+}
+
+#instagram-feed{
+	background-color: #525659;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+#special{
+	transition: 0.25s ease-in-out all;
+}
+
+#special:hover{
+	color: #d3a713;
+	background-color:black;
+}
+
+@media (min-width: 320px){
+
+	.about-p{
+		font-size: 1.2rem;
+	}
+
+	#product-section{
+		height: 85vh;
+	}
+
+	.product img{
+		height: 270px;
+	}
+
+	.product h2{
+		font-size: 2.5rem;
+	}
+
+	#left-contact p{
+	margin-top: 25px;
+	color: #979795;
+	font-size: 1.05rem;
+	font-family: myriad;
+}
+
+}
+
+@media (min-width: 544px){
+
+	#product-title h1 {
+    font-family: donair;
+    font-size: 2.5rem;
+	}
+	
+	#product-section{
+		height: 95vh;
+	}
+
+	.product img{
+		height: 350px;
+	}
+
+	.product h2{
+		font-size: 3rem;
+	}
+
+}	
+
+@media (min-width: 768px){
+
+	#product-title h1 {
+    font-family: donair;
+    font-size: 3.3rem;
+	}
+	#product-section{
+		height: 80vh;
+	}
+
+	#slide{
+		margin-top: 10px;
+	}
+
+	#about-title h1{
+		text-align: left;
+		font-size: 3.2rem;
+	}
+
+	.about-p{
+		font-size: 1.42rem;
+    	line-height: 34px;
+    	text-indent: 35px;
+	}
+
+	#review-content h1{
+		text-align: left;
+		font-size: 3.2rem;
+	}
+
+	.review-p{
+		font-family: myriad;
+		font-size: 1.20rem;
+	}
+
+	.product img{
+		height: 350px;
+	}
+
+	.product ul li{
+		width: 100%;
+		vertical-align: middle;
+	}
+
+	.product h2{
+		font-size: 3.5rem;
+	}
+
+	/* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item
+      {
+        display: block;
+    }
+    
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item{
+        transition: none;
+    }
+    
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item{
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item{
+        position: relative;
+        transform: translate3d(50%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+    #left-contact h1{
+		text-align: left;
+		font-size: 3.05rem;
+    }
+
+	#right-contact h1{
+		text-align: left;
+		margin-top: 0px;
+		font-size: 3.3rem;
+	}
+
+	.boxes {
+		margin-top: 40px;
+	  	padding-top: 30px;
+	  	padding-bottom: 15px;
+	}
+
+}
+
+@media (min-width: 992px){
+
+	#left-contact p{
+		margin-top: 25px;
+		color: #979795;
+		font-size: 1.2rem;
+		font-family: myriad;
+	}
+
+	#product-section{
+		height: 85vh;
+	}
+	
+	.product img{
+		height: 390px;
+	}
+
+	.product ul li{
+		width: 100%;
+		font-size: 1.6rem;
+	}
+	
+	#slide{
+		margin-top: 40px;
+	}
+
+	#slide a p{
+		font-size: 1.2rem;
+	}
+
+}
+
+
+@media (min-width: 1200px){
+
+	#product-title{
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	
+	#product-title h1{
+		font-size: 4.2rem;
+	}
+
+	.product h2{
+		margin-bottom: 30px;
+	}
+
+	.product ul{
+		margin-top: 30px;
+	}
+
+	.product img{
+		height: 420px;
+	}
+
+	#product-section{
+		height: 100vh;
+	}
+
+
+}

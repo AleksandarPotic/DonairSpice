@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#thank-section2{
+	padding-top: 120px;
+	padding-bottom: 45px;
+}
+
+#thank-section22{
+	padding-top: 120px;
+	padding-bottom: 45px;
+}
+
+#thank-title2 h1{
+	color: #d3a713;
+	font-family: myriad;
+	font-size: 1.8rem;
+	margin-left: -30px;
+}
+
+#check2{
+	color: #d3a713;
+}
+
+#thank-section2{
+	margin-top: 40px;
+}
+
+#thank-title2 {
+	padding-top: 150px;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+	#thank-title2{
+		padding-top: 30px;
+	}
+
+	#thank-title2 h1{
+		margin-left: 60px;
+	}
+
+	#thank-section22{
+		padding-bottom: 10px;
+	}
+
+	#spice{
+		margin-top: -30px;
+	}
+
+}
+
+@media (min-width: 320px){
+	#thank-section22{
+		display: flex;
+	}
+	#thank-section2{
+		display: none;
+	}
+
+	#thank-section22{
+		padding-top: 100px;
+	}
+
+	#thank-section22 h1{
+		color: #d3a713;
+		font-family: myriad;
+		font-size: 2.7rem;
+		margin-left: 0px;
+	}
+
+	#thank-section22 h4{
+		font-family: myriad;
+		font-size: 1rem;
+		margin-top: 20px;
+		margin-left: 5px;
+	}
+}
+
+@media (min-width: 554px){
+
+}
+
+@media (min-width: 768px){
+
+	#thank-section22{
+		display: none;
+	}
+	#thank-section2{
+		display: flex;
+	}
+	#thank-title2{
+		margin-bottom: 20px;
+	}
+
+	#thank-title2 h1{
+		font-size: 3.8rem;
+	}
+
+	#thank-title2 h4 {
+    text-indent: 15px;
+    line-height: 30px;
+	}
+
+	#thank-title2 h4{
+		margin-top: 15px;
+		margin-left: 40px;
+		text-align: left;
+		font-size: 1.35rem;
+		font-family: myriad;
+	}
+
+	#thank-section2{
+		padding-top: 110px;
+		padding-bottom: 63px;
+		display: flex;
+	}
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+	#thank-section2{
+		padding-top: 130px;
+		padding-bottom: 22px;
+		display: flex;
+	}
+	
+	#thank-title2 h1{
+		font-size: 5rem;
+	}
+
+}
+
+	#thank-title2 h4{
+		text-indent: 30px;
+		line-height: 30px;
+		margin-top: -5px;
+    	margin-bottom: 20px;
+	}
+
+	#doner{
+		color:#d3a713;
+	}

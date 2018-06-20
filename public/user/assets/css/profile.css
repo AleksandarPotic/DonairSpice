@@ -1,0 +1,253 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#inlineFormInputGroup {
+	color: black!important;
+}
+
+#inlineFormInputGroup::-webkit-inner-spin-button {
+	display: none;
+}
+#profile-section{
+	width: 100%;
+	height: 50vh;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#profile-content{
+	background-color: #d3a713;
+}
+
+#right-button{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#left-button{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#profile-btn{
+	border-color:#ccc;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 100%;
+	padding: 20px 40px;
+	background-color: #fff;
+	font-size: 2rem;
+	border: none;
+	border-radius: 0px;
+}
+
+#history-btn{
+	border-color:#ccc;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 100%;
+	padding: 20px 40px;
+	background-color: #d3a713;
+	font-size: 2rem;
+	border: none;
+	border-radius: 0px;
+}
+
+#profile{
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+#personal-info h1{
+	font-family: donair;
+	color: #d3a713;
+}
+
+#personal-info input{
+	border-color:#ccc;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 2px solid #000;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	}
+
+#personal-info input:focus{
+	border: 2px solid #d3a713;
+}
+
+#card-data{
+	margin-top: 50px;
+}
+
+#card-data h1{
+	font-family: donair;
+	color: #d3a713;
+}
+
+#card-data input{
+	border-color:#ccc;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 2px solid #000;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+#card-data input:focus{
+	border: 2px solid #d3a713;
+}
+
+#p-info{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	display: block;
+}
+
+#c-info{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: none;
+}
+
+#empty-history{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#empty-history button{
+	padding: 15px 40px;
+	background-color: #d3a713;
+	color: #000;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#empty-history button:hover{
+	background-color: #000;
+	color: #d3a713;
+}
+
+#submit{
+	padding-bottom: 40px;
+}
+
+#submit button{
+	width: 100%;
+	padding: 20px;
+	background-color: #000;
+	color: #d3a713;
+}
+
+#submit button:hover{
+	background-color: #d3a713;
+	color: #000;
+}
+
+#tbody{
+	border: none;
+	border: 2px solid #fff;
+}
+
+.order-now:hover{
+	background-color: #d3a713;
+	color: #000;
+}
+
+
+
+
+@media (min-width: 300px){
+
+	#profile-btn{
+		font-size: 0.9rem;
+		padding: 20px 30px;
+		font-weight: normal !important;
+	}
+
+	#history-btn{
+		font-size: 0.9rem;
+		padding: 20px 30px;
+		font-weight: normal !important;
+	}
+
+}
+
+
+
+@media (min-width: 360px){
+
+	#profile-btn{
+		font-size: 1rem;
+		padding: 25px 35px;
+		font-weight: normal !important;
+	}
+
+	#history-btn{
+		font-size: 1rem;
+		padding: 25px 35px;
+		font-weight: normal !important;
+	}
+
+}
+
+@media (min-width: 544px){
+
+	#profile-btn{
+		font-size: 1.5rem;
+		padding: 26px;
+	}
+
+	#history-btn{
+		font-size: 1.5rem;
+		padding: 26px;
+	}
+
+}
+
+@media (min-width: 768px){
+
+	#profile-btn{
+		font-size: 2rem;
+		padding: 20px 40px;
+	}
+
+	#history-btn{
+		font-size: 2rem;
+		padding: 20px 40px;
+	}
+	
+	#card-data{
+		margin-top: 0px;
+	}
+
+	#personal-info h1{
+		font-size: 3rem;
+	}
+
+	#card-data h1{
+		font-size: 3rem;
+	}
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+	
+}

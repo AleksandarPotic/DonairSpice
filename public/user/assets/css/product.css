@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.order-box{
+	padding: 15px;
+}
+
+.box-item{
+	padding: 10px;
+	background-color: #EFEFEF;
+}
+
+.box-item p{
+	font-size: 1.7rem;
+}
+
+
+
+
+
+
+@media (min-width: 320px){
+
+}
+
+@media (min-width: 544px){
+	
+}
+
+@media (min-width: 768px){
+	
+}
+
+@media (min-width: 992px){
+	
+}
+
+@media (min-width: 1200px){
+	
+}
